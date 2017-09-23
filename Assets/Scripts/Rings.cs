@@ -8,12 +8,11 @@ public class Rings : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		m_rotation = 5.0f;
+		m_rotation = 100.0f;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		transform.Rotate (Vector3.forward * m_rotation);
-
+		transform.Rotate (Vector3.forward * m_rotation * Time.deltaTime);
 	}
 }

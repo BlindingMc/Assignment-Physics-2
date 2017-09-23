@@ -21,8 +21,8 @@ GameObject:
   - component: {fileID: 4717502928118118}
   - component: {fileID: 33026916144600132}
   - component: {fileID: 23917513519685414}
-  - component: {fileID: 114892957338084380}
   - component: {fileID: 135067275795637326}
+  - component: {fileID: 114171487003073218}
   m_Layer: 0
   m_Name: Asteroid_01_M
   m_TagString: Asteroid
@@ -82,7 +82,7 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1178499240451962}
   m_Mesh: {fileID: 4300000, guid: 70a9041ab85428848898c7cab09a41bc, type: 3}
---- !u!114 &114892957338084380
+--- !u!114 &114171487003073218
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -90,9 +90,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1178499240451962}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b32ca56f50b41459fa16cfe99d196646, type: 3}
+  m_Script: {fileID: 11500000, guid: 6c79a7afd187f456f8d9b88fb1452ae5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  key: Medium
 --- !u!135 &135067275795637326
 SphereCollider:
   m_ObjectHideFlags: 1

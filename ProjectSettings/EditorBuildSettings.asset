@@ -6,20 +6,29 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Main_Menu.unity
+    path: Assets/Scenes/BootScreen.unity
+    guid: 60c5f631c482047c7967e6a4a9d0cf46
+  - enabled: 1
+    path: Assets/Scenes/Menus & Other/Main_Menu.unity
     guid: 78eda6f6971d54714a7b074287a45dd0
   - enabled: 1
-    path: Assets/Scenes/First_Level.unity
+    path: Assets/Scenes/Levels/First_Level.unity
     guid: 024f24b2c1edf48bf90a52c4827045c1
   - enabled: 1
-    path: Assets/Scenes/How_To_Play.unity
+    path: Assets/Scenes/Menus & Other/How_To_Play.unity
     guid: eae9eb8015b6943aa8bdf830db49b1a5
   - enabled: 1
-    path: Assets/Scenes/Credits.unity
+    path: Assets/Scenes/Menus & Other/Credits.unity
     guid: a4c22819444c24989a1a05aac4f36ef0
   - enabled: 1
-    path: Assets/Scenes/Game_Over.unity
+    path: Assets/Scenes/Menus & Other/Game_Over.unity
     guid: 94c2255602d7e4de2b38647966046f9d
   - enabled: 1
-    path: Assets/Scenes/Win_Screen.unity
+    path: Assets/Scenes/Menus & Other/Win_Screen.unity
     guid: ba97adc5c8f524b929c321768b6511b6
+  - enabled: 1
+    path: Assets/Scenes/Levels/Second_Level.unity
+    guid: 4c26ba805a1e64ed7b6c0c80b4545af7
+  - enabled: 1
+    path: Assets/Scenes/Cinematics/Cinematic_1.unity
+    guid: 1cfd906f5235d49ca821f81cbdd14398

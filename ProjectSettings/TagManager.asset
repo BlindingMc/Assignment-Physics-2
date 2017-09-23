@@ -8,6 +8,9 @@ TagManager:
   - Asteroid
   - Ground
   - End
+  - Splash
+  - Water
+  - Boat
   layers:
   - Default
   - TransparentFX
